@@ -59,7 +59,7 @@ int main()
 			list.displayValues(value1);
 			break;
 		case 6:
-			cout << "Here is the list of Even Values: " << endl;
+			cout << "Here is the list in Reverse Order: " << endl;
 			list.displayReverse();
 			break;
 		case 7:
