@@ -1,0 +1,7 @@
+﻿  DoublyLinkedList.cpp
+  Node.cpp
+  Source.cpp
+  Generating Code...
+C:\Users\TECH CLOUD\source\repos\Double Linked List\DoublyLinkedList.cpp(171): warning C4715: 'DoublyLinkedList::CountNodes': not all control paths return a value
+C:\Users\TECH CLOUD\source\repos\Double Linked List\DoublyLinkedList.cpp(272): warning C4715: 'DoublyLinkedList::Find': not all control paths return a value
+  Double Linked List.vcxproj -> C:\Users\TECH CLOUD\source\repos\Double Linked List\x64\Debug\Double Linked List.exe
