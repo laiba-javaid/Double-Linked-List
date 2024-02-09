@@ -17,6 +17,7 @@ void DoublyLinkedList::insertAtEnd(string data1)
 	temp->prev = 0;
 	if (first == 0)
 	{
+		// empty list
 		first = temp;
 		last = temp;
 	}
@@ -37,6 +38,7 @@ void DoublyLinkedList::insertAtStart(string data2)
 	temp->next = 0;
 	if (first == 0)
 	{
+		// empty list
 		first = temp;
 		last = temp;
 	}
@@ -140,11 +142,11 @@ void DoublyLinkedList::displayValues(char value)
 }
 unsigned int DoublyLinkedList::CountNodes()
 {
-	unsigned int count = 0;
 	if (first == 0)
 		cout << "List is empty!!" << endl;
 	else
 	{
+		unsigned int count = 0;
 		Node* temp = first;
 		while (temp != 0)
 		{
