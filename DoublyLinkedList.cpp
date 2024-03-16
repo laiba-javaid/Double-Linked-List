@@ -15,7 +15,7 @@ void DoublyLinkedList::insertAtEnd(string data1)
 	temp->data = data1;
 	temp->next = 0;
 	temp->prev = 0;
-	if (first == 0)
+	if (first == 0)//checks if list is empty
 	{
 		// empty list
 		first = temp;
@@ -50,7 +50,7 @@ void DoublyLinkedList::insertAtStart(string data2)
 	}
 	cout << "Data inserted successfully!!" << endl;
 }
-void DoublyLinkedList::insertItem(string data3)
+void DoublyLinkedList::insertItem(string data3)//inserting in ascending order
 {
 	Node* temp = new Node();
 	temp->data = data3;
